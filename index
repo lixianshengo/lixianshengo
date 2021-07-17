@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>真巧呀！！！</title>
+    <link rel="stylesheet" href="cs.css">
+</head>
+<body>
+        <div class="home">
+            <div class="content">
+                <div class="stars"></div>
+                <img class="bgc" src="000.jpg" width="100%" alt="">
+                <h3 class="title">欢迎来到巧巧的个人网站</h3>
+                <h3 class="titles">今天也要加油鸭</h3>
+                <img class="icon" src="000.jpg" alt="">
+                <div class='ribbon'>
+                    <a href='./zaoshang.html'><span>早餐</span></a>
+                    <a href='./zhongwu.html'><span>午餐</span></a>
+                    <a href='./wansahng.html'><span>晚餐</span></a>
+    
+                </div>
+            </div>
+    <script>
+        let mucics = document.getElementById('audio')
+        document.body.addEventListener('mousemove', function() {
+            setTimeout(() => {
+                mucics.play();
+            }, 2000);
+        }, false);
+    </script>
+</body>
+</html>
